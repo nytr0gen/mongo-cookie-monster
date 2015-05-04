@@ -1,6 +1,6 @@
 {
   "name": "mongo-cookie-monster",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mongo Cookie Monster is a cookie store backed by MongoDb for tough-cookie module",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/nytr0gen/mongo-cookie-monster",
   "dependencies": {
-    "deasync": "0.0.10",
+    "deasync": "^0.0.10",
     "mongojs": "^0.18.2",
     "tough-cookie": "^1.1.0"
   }
