@@ -164,7 +164,7 @@ CookieMonster.prototype._loadFromRepository = function(id, cb) {
         _id: 0
     }, function(err, docs) {
         if (err) throw (err);
-        var dataJson = docs ? JSON.parse(docs.cookie) : null;
+        var dataJson = docs && docs.cookie ? JSON.parse(docs.cookie) : null;
         for (var domainName in dataJson) {
             for (var pathName in dataJson[domainName]) {
                 for (var cookieName in dataJson[domainName][pathName]) {
