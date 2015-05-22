@@ -1,6 +1,6 @@
 {
   "name": "mongo-cookie-monster",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Mongo Cookie Monster is a cookie store backed by MongoDb for tough-cookie module",
   "main": "index.js",
   "scripts": {

@@ -20,7 +20,7 @@ var CookieMonster = function(opts, id) {
         this.initialized = true;
     }.bind(this));
     while (!this.initialized) {
-        deasync.sleep(50);
+        deasync.runLoopOnce();
     }
 }
 
