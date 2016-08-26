@@ -18,7 +18,7 @@
   "homepage": "https://github.com/nytr0gen/mongo-cookie-monster",
   "dependencies": {
     "deasync": "^0.1.0",
-    "mongojs": "^1.0.2",
+    "mongojs": "^2.4.0",
     "tough-cookie": "^1.1.0"
   }
 }
